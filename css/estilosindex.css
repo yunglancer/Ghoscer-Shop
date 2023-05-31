@@ -1,0 +1,17 @@
+.bgimagen{
+    background-image: url(/assets/imagenes/banner.png);
+    background-repeat: no-repeat; ; 
+	background-attachment: scroll; 
+    background-size: 100%;
+    background-position: center;
+
+    
+}
+
+
+
+@font-face {
+    font-family: 'Heartless';
+    src: url('/assets/Heartless.ttf');
+}
+
