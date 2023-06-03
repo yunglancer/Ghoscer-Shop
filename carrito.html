@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/carrito.css">
+    <link rel="stylesheet" href="css/carrito.css">
+    <link rel="shortcut icon" href="assets/imagenes/IMG-20220327-WA0036.jpg" type="image/x-icon">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Carrito | Ghoscer</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header class="site-header sticky-top py-2 ">
+      <div class="container"> 
+        <nav class=" d-flex flex-wrap align-items-center justify-content-between">
+          <a class="d-flex align-items-center" href="index.html" aria-label="Product">
+            <img class="logo" src="assets/imagenes/IMG-20220118-WA0080-removebg-preview.png">
+          </a>
+        <div class="d-flex justify-content-center ">
+            <a class="px-3 m-auto d-none d-md-inline-block align-items-center " href="tienda.html">Tienda</a>
+            <a class="px-3 m-auto d-none d-md-inline-block lign-items-center" href="nosotros.html">Sobre Nosotros</a>
+            <a class="px-3 m-auto d-none d-md-inline-block lign-items-center" href="faq.html">FAQ</a>
+            <a class="px-3 m-auto d-none d-md-inline-block lign-items-center" href="cuenta.html">Cuenta</a>
+        </div>
+        <div class="d-flex flex-row">
+              <a class="py-2 m-auto mx-3" href="carrito.html" aria-label="Product">
+                <svg class="m-auto" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                  <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                </svg>
+              </a>
+              <a class="py-2 m-auto mx-4" href="cuenta.html" aria-label="Product">
+                <svg class="m-auto" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg>
+              </a>
+              
+          </div>
+          
+        </nav>
+      </div>
+        
+      </header>
+
+      <!--principal-->
+      <section class="h-100 " style="background-color: #1f2225 ;">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100 ">
+            <div class="col-12 " style= "border-radius: 15px;">
+              <div class="card card-registration card-registration-2" >
+                <div class="card-body p-0">
+                  <div class="row g-0">
+                    <div class="col-lg-8">
+
+                      <div class="p-5 fondo">
+                        <div class="d-flex justify-content-between align-items-center mb-5">
+                          <h1 class="fw-bold mb-0 text-white">Tu Carrito</h1>
+                          <h6 class="mb-0 text-white">3 items</h6>
+                        </div>
+                        <hr class="my-4">
+      
+                        <div class="row mb-4 d-flex justify-content-between align-items-center">
+                          <div class="col-md-2 col-lg-2 col-xl-2">
+                            <img
+                              src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img5.webp"
+                              class="img-fluid rounded-3" alt="Cotton T-shirt">
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-3">
+                            <h6 class="text-white">Shirt</h6>
+                            <h6 class="text-white mb-0">Cotton T-shirt</h6>
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                            <button class="btn btn-link px-2"
+                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                              <i class="fas fa-minus"></i>
+                            </button>
+      
+                            <input id="form1" min="0" name="quantity" value="1" type="number"
+                              class="form-control form-control-sm" />
+      
+                            <button class="btn btn-link px-2"
+                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                              <i class="fas fa-plus"></i>
+                            </button>
+                          </div>
+                          <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                            <h6 class="mb-0 text-white">€ 44.00</h6>
+                          </div>
+                          <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                            <a href="#!" class="text-white"><i class="fas fa-times"></i></a>
+                          </div>
+                        </div>
+      
+                        <hr class="my-4">
+      
+                        <div class="row mb-4 d-flex justify-content-between align-items-center">
+                          <div class="col-md-2 col-lg-2 col-xl-2">
+                            <img
+                              src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img6.webp"
+                              class="img-fluid rounded-3" alt="Cotton T-shirt">
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-3">
+                            <h6 class="text-white">Shirt</h6>
+                            <h6 class="text-white mb-0">Cotton T-shirt</h6>
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                            <button class="btn btn-link px-2"
+                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                              <i class="fas fa-minus"></i>
+                            </button>
+      
+                            <input id="form1" min="0" name="quantity" value="1" type="number"
+                              class="form-control form-control-sm" />
+      
+                            <button class="btn btn-link px-2"
+                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                              <i class="fas fa-plus"></i>
+                            </button>
+                          </div>
+                          <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                            <h6 class="mb-0 text-white ">€ 44.00</h6>
+                          </div>
+                          <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                            <a href="#!" class="text-white"><i class="fas fa-times"></i></a>
+                          </div>
+                        </div>
+      
+                        <hr class="my-4">
+      
+                        <div class="row mb-4 d-flex justify-content-between align-items-center">
+                          <div class="col-md-2 col-lg-2 col-xl-2">
+                            <img
+                              src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img7.webp"
+                              class="img-fluid rounded-3" alt="Cotton T-shirt">
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-3">
+                            <h6 class="text-white">Shirt</h6>
+                            <h6 class="text-white mb-0">Cotton T-shirt</h6>
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                            <button class="btn btn-link px-2"
+                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                              <i class="fas fa-minus"></i>
+                            </button>
+      
+                            <input id="form1" min="0" name="quantity" value="1" type="number"
+                              class="form-control form-control-sm" />
+      
+                            <button class="btn btn-link px-2"
+                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                              <i class="fas fa-plus"></i>
+                            </button>
+                          </div>
+                          <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                            <h6 class="mb-0 text-white ">€ 44.00</h6>
+                          </div>
+                          <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                            <a href="#!" class="text-white"><i class="fas fa-times"></i></a>
+                          </div>
+                        </div>
+      
+                        <hr class="my-4">
+      
+                        <div class="pt-5">
+                          <h6 class="mb-0"><a href="tienda.html" class="fw-bold btn btn-outline-danger text-center text-white text-decoration-none"><i
+                                class="fas fa-long-arrow-alt-left"></i>Seguir Comprando</a></h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="p-5">
+                        <h2 class="fw-bold text-white mb-5 mt-2 pt-1">Resumen</h3>
+                        <hr class="my-4">
+      
+                        <div class="d-flex justify-content-between mb-4">
+                          <h5 >Subtotal</h5>
+                          <h5 class="text-white ">$ 100</h5>
+                        </div>
+                        <hr class="my-4">
+                        <div class="d-flex justify-content-between mb-5">
+                          <h5 class="text-uppercase">total:</h5>
+                          <h5>$ 100.00</h5>
+                        </div>
+      
+                        <button type="button" class="text-center fw-bold w-100 btn btn-danger btn-block btn-lg"
+                          data-mdb-ripple-color="dark">Pagar Pedido</button>
+                        <div class="d-flex justify-content-between mt-5 mb-5">
+                            <p class="text-white fw-bold fst-italic text-end">Impuestos y gastos de envío se calculan en la pantalla de pago </p> 
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <img class="payments" src="//www.lavendicion.com/wp-content/uploads/LogosPagaments.png" >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    
+      <!--FOOTER-->
+      <div class="container foooter pt-2">
+        <footer class="py-4 pb-1">
+          <div class="row flex-wrap">
+            <div class="col-6 col-md-2 mb-3 mx-auto align-items-center h-100">
+              <img src="assets/imagenes/IMG-20220327-WA0036.jpg" class="w-100">
+            </div>
+            <div class="d-flex flex-wrap w-75">
+              
+              <div class="col-6 col-md-2 mb-3">
+              <h5>Cosas importantes</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="tienda.html" class="nav-link p-0 ">Tienda</a></li>
+                <li class="nav-item mb-2"><a href="nosotros.html" class="nav-link p-0 ">Sobre Nosotros</a></li>
+                <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0 ">FAQ</a></li>
+                <li class="nav-item mb-2"><a href="cuenta.html" class="nav-link p-0 ">Cuenta</a></li>
+              </ul>
+            </div>
+      
+            
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Cosas aburridas</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Aviso Legal</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Política de Cookies</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Personalizar Cookies</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Política de privacidad</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Suscríbete a nuestro boletín</h5>
+                <p>Sé el primero en enterarte de todas los lanzamientos y promociones.
+                  ¡Suscríbete y no te pierdas nada!</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Correo:</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Correo">
+                  <button class="btn btn-danger" type="button">Subcribete</button>
+                </div>
+              </form>
+            </div></div>
+            
+          </div>
+          <div class="d-flex flex-row"></div>
+          <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 mt-4 border-top flex-wrap">
+            <p>&copy; Luis Fernando a.k.a yung lancer. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+            </ul>
+            <div>
+              <img class="payments" src="//www.lavendicion.com/wp-content/uploads/LogosPagaments.png" >
+            </div>
+          </div>
+          
+        </footer>
+      </div>
+</body>
+</body>
+</html>

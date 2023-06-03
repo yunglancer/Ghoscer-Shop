@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
     background:#181617;
     color: white;
+    font-family: 'Roboto', sans-serif;;
 }
 body a{
     color: white;
@@ -46,7 +48,7 @@ footer, .foooter{
 
 }
 
-h5{
+footer h5{
   color: white;
   font-family: 'Bokor', cursive;
 }

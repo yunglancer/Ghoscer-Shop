@@ -43,10 +43,11 @@ text-decoration: none;
     align-items: center;
 }
 
-.textosn p{
-    width: 60%;
+.lorem{
+    width: 50%;
     padding: 10px;
     text-align: justify;
+    height: 100%;
 }
 
 .direccion{
