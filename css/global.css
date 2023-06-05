@@ -54,6 +54,13 @@ footer h5{
 }
 
 
+@media (min-width: 768px) and (max-width: 1199px) { 
+  .margincosas{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+}
 
 /*ESTILOS DEL CAROUSEL*/
 

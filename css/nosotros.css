@@ -97,7 +97,7 @@ text-decoration: none;
         margin: auto;
     }
 
-    .textosn p{
+    .textosn p, .lorem{
         width: 100%;
     }
 
@@ -114,5 +114,8 @@ text-decoration: none;
         margin-top: 10px;
         margin-bottom: 10px;
     }
- 
+    
+
+
+   
   }

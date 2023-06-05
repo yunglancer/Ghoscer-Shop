@@ -1,55 +1,54 @@
-.bgimagen{
-    background-image: url(/assets/imagenes/banner.png);
-    background-repeat: no-repeat; ; 
-	background-attachment: scroll; 
-    background-size: 100%;
-    background-position: center;
+    .bgimagen{
+        background-image: url(/assets/imagenes/banner.png);
+        background-repeat: no-repeat; ; 
+        background-attachment: scroll; 
+        background-size: 100%;
+        background-position: center;
 
-    
-}
-.bordergray{
-    border-top-left-radius: 16px;
-    border-bottom-left-radius: 16px;
-    background-color: #181617;
-}
-
-.card{
-    background-color: #181617;
-
-}
-
-hr{
-    color: white;
-}
-h1, h2, h3, h4{
-    font-family: 'Bokor', cursive;
-    color: white;
-    font-weight: bold;
-}
-
-h5 {
-    color: white;
-}
-
-h6{
-    color: white;
-    font-weight: bold;
-}
-select{
-    color: white;
-    background-color: #181617;
-    padding: 10px;
-    border: 1px white solid;
-    border-radius: 5px;
-    width: 100%;
-}
-
-@media (min-width: 1025px) {
-    .h-custom {
-    height: 100vh !important;
+        
     }
+    .bordergray{
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+        background-color: #181617;
     }
-    
+
+    .card{
+        background-color: #181617;
+
+    }
+
+    .cantidadprecio{
+        width: 50%;
+    }
+
+    hr{
+        color: white;
+    }
+    h1, h2, h3, h4{
+        font-family: 'Bokor', cursive;
+        color: white;
+        font-weight: bold;
+    }
+
+    h5 {
+        color: white;
+    }
+
+    h6{
+        color: white;
+        font-weight: bold;
+    }
+    select{
+        color: white;
+        background-color: #181617;
+        padding: 10px;
+        border: 1px white solid;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+
     .card-registration .select-input.form-control[readonly]:not([disabled]) {
     font-size: 1rem;
     line-height: 2.15;
@@ -65,6 +64,24 @@ select{
     background-color: #eae8e8;
     }
     
+    .precio{
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+    .svgg{
+        margin: auto;
+    }
+    
+    @media (min-width: 1025px) {
+        .h-custom {
+        height: 100vh !important;
+        }
+        }
+
     @media (min-width: 992px) {
     .card-registration-2 .bg-grey {
     border-top-right-radius: 16px;
@@ -77,4 +94,45 @@ select{
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     }
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) { 
+       .precio{
+        width: 80%;
+       }
+      }
+
+
+    @media (max-width: 767px) {
+        .flex{
+            display: flex;
+        }
+
+        h6{
+            margin-bottom: 20px;
+            margin-top: 20px;
+    
+        }
+        input{
+            margin-top: 10px;
+        }
+        .img-fluid{
+            width: 50%;
+            margin: auto;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+       
+        .cantidadprecio{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        .precio{
+            width: 100%;
+            text-align: end;
+        }
+        .svgg{
+            display: none;
+        }
     }
