@@ -18,6 +18,18 @@
 
     }
 
+    #seguir{
+        display: none;
+    }
+
+    #precio3, #precio2, #precio1, #precio0{
+        display: none;
+    }
+
+    #boton-disabled{
+        display: none;
+    }
+
     .cantidadprecio{
         width: 50%;
     }
@@ -75,6 +87,11 @@
     .svgg{
         margin: auto;
     }
+    .svgg:hover{
+        opacity: .6;
+        transition: 0.5s;
+    }
+    
     
     @media (min-width: 1025px) {
         .h-custom {

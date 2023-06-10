@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/carrito.css">
     <link rel="stylesheet" href="css/carrito.css">
     <link rel="shortcut icon" href="assets/imagenes/IMG-20220327-WA0036.jpg" type="image/x-icon">
-    <script src="js/bootstrap.bundle.min.js"></script>
+    
     <title>Carrito | Ghoscer</title>
 </head>
 <body>
@@ -60,7 +60,14 @@
                         <div class="d-flex justify-content-between align-items-center mb-5">
                           <h1 class="fw-bold mb-0 text-white">Tu Carrito</h1>
                         </div>
-                        <hr class="my-4">
+                        <div id="seguir">
+                          
+                          <div class="row mb-4 d-flex justify-content-between align-items-center">
+                            <h2 class="text-gray text-center">Tu carrito esta vacío</h2>
+                          </div>
+                        </div>
+                        <div id="articulo-1">
+                          <hr class="my-4">
       
                         <div class="row mb-4 d-flex justify-content-between align-items-center">
                           <div class="col-md-2 col-lg-2 col-xl-2 flex">
@@ -82,14 +89,17 @@
                             <div class="precio">
                               <h6 class="mb-0 mx-4 text-white w-75">$ 25.00</h6>
                             </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x text-white svgg" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="x-1" width="35" height="35" fill="currentColor" class="bi bi-x text-white svgg" viewBox="0 0 16 16">
                               <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                             </svg>
                           </div>
                         </div>
+                        </div>
+                        
                           
       
-                        <hr class="my-4">
+                        <div id="articulo-2">
+                          <hr class="my-4">
       
                         <div class="row mb-4 d-flex justify-content-between align-items-center">
                           <div class="col-md-2 col-lg-2 col-xl-2 flex">
@@ -111,16 +121,47 @@
                             <div class="precio">
                               <h6 class="mb-0 mx-4 text-white w-75">$ 25.00</h6>
                             </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x text-white svgg" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="x-2" width="35" height="35" fill="currentColor" class="bi bi-x text-white svgg" viewBox="0 0 16 16">
                               <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                             </svg>
                           </div>
                         </div>
+                        </div>
                           
       
-                        <hr class="my-4">
+                        <div id="articulo-3">
+                          <hr class="my-4">
+      
+                        <div class="row mb-4 d-flex justify-content-between align-items-center">
+                          <div class="col-md-2 col-lg-2 col-xl-2 flex">
+                            <img
+                              src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img5.webp"
+                              class="img-fluid rounded-3" alt="Cotton T-shirt">
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-3">
+                            <h6 class="text-white">T-Shirt Basic</h6>
+                            <h6 class="text-white fw-normal">$ 25</h6>
+                            <h6 class="text-white fw-normal">Talla: M</h6>
+                            <h6 class="text-white mb-0 fw-normal">Color: Blanco</h6>
+                          </div>
+                          <div class="d-flex cantidadprecio">
+                            <div class="">
+                              <input id="form1" min="0" name="quantity" value="1" type="number"
+                                class="form-control form-control-sm mx-4 w-50" />
+                            </div>
+                            <div class="precio">
+                              <h6 class="mb-0 mx-4 text-white w-75">$ 25.00</h6>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" id="x-3" width="35" height="35" fill="currentColor" class="bi bi-x text-white svgg" viewBox="0 0 16 16">
+                              <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                          </div>
+                        </div>
+                        </div>
 
-
+                         <div id="articulo-4">
+                          <hr class="my-4">
+      
                         <div class="row mb-4 d-flex justify-content-between align-items-center">
                           <div class="col-md-2 col-lg-2 col-xl-2 flex">
                             <img
@@ -141,39 +182,12 @@
                             <div class="precio">
                               <h6 class="mb-0 mx-4 text-white w-75">$ 25.00</h6>
                             </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x text-white svgg" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="x-4" width="35" height="35" fill="currentColor" class="bi bi-x text-white svgg" viewBox="0 0 16 16">
                               <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                             </svg>
+                            
                           </div>
                         </div>
-                          
-      
-                        <hr class="my-4">
-      
-                        <<div class="row mb-4 d-flex justify-content-between align-items-center">
-                          <div class="col-md-2 col-lg-2 col-xl-2 flex">
-                            <img
-                              src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img5.webp"
-                              class="img-fluid rounded-3" alt="Cotton T-shirt">
-                          </div>
-                          <div class="col-md-3 col-lg-3 col-xl-3">
-                            <h6 class="text-white">T-Shirt Basic</h6>
-                            <h6 class="text-white fw-normal">$ 25</h6>
-                            <h6 class="text-white fw-normal">Talla: M</h6>
-                            <h6 class="text-white mb-0 fw-normal">Color: Blanco</h6>
-                          </div>
-                          <div class="d-flex cantidadprecio">
-                            <div class="">
-                              <input id="form1" min="0" name="quantity" value="1" type="number"
-                                class="form-control form-control-sm mx-4 w-50" />
-                            </div>
-                            <div class="precio">
-                              <h6 class="mb-0 mx-4 text-white w-75">$ 25.00</h6>
-                            </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-x text-white svgg" viewBox="0 0 16 16">
-                              <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                            </svg>
-                          </div>
                         </div>
                           
       
@@ -192,10 +206,16 @@
                         <hr class="my-4">
                         <div class="d-flex justify-content-between mb-5">
                           <h5 class="text-uppercase">subtotal:</h5>
-                          <h5>$ 100.00</h5>
+                          <h5 id="precio4">$ 100.00</h5>
+                          <h5 id="precio3">$ 75.00</h5>
+                          <h5 id="precio2">$ 50.00</h5>
+                          <h5 id="precio1">$ 25.00</h5>
+                          <h5 id="precio0">$ 0.00</h5>
                         </div>
                         <hr class="my-4">
-                        <button type="button" class="text-center fw-bold w-100 btn btn-danger btn-block btn-lg"
+                        <button id="boton-enabled" type="button" class="text-center fw-bold w-100 btn btn-danger btn-block btn-lg"
+                          data-mdb-ripple-color="dark">Pagar Pedido</button>
+                          <button id="boton-disabled" type="button" class="text-center fw-bold disabled w-100 btn btn-danger btn-block btn-lg"
                           data-mdb-ripple-color="dark">Pagar Pedido</button>
                         <div class="d-flex justify-content-between mt-5 mb-5">
                             <p class="text-white fw-bold fst-italic text-end">Impuestos y gastos de envío se calculan en la pantalla de pago </p> 
@@ -274,6 +294,7 @@
           
         </footer>
       </div>
+      <script src="js/carrito.js"></script>
 </body>
 </body>
 </html>
