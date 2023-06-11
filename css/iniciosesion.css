@@ -8,6 +8,10 @@
   height: 120px;
 }
  
+.form-check-input:checked{
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
 
   .bg{
     background-color:#1f2225 ;
