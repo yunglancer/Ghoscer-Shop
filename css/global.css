@@ -40,7 +40,7 @@ header{
 }
 
 .bgimagen{
-  background-image: url(/assets/imagenes/banner.png);
+  background-image: url(../assets/imagenes/banner.png);
   background-repeat: no-repeat; ; 
   background-attachment: scroll; 
   background-size: 100%;
