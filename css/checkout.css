@@ -11,14 +11,14 @@ main{
   }
 
   .contenedor{
-    background-color: #1f2225;
+    background-color: #1a1d1f;
   }
 
-
-    .form-check-input:checked{
-      background-color: #dc3545;
-      border-color: #dc3545;
-    }
+ .form-check-input:checked{
+    background-color: #dc3545;
+    border-color: #dc3545;
+   }
+   
   .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;

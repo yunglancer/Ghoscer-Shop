@@ -1,12 +1,7 @@
-    .bgimagen{
-        background-image: url(/assets/imagenes/banner.png);
-        background-repeat: no-repeat; ; 
-        background-attachment: scroll; 
-        background-size: 100%;
-        background-position: center;
-
-        
+    section{
+        background-color: #1a1d1f;
     }
+    
     .bordergray{
         border-top-left-radius: 16px;
         border-bottom-left-radius: 16px;

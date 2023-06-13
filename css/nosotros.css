@@ -1,22 +1,13 @@
 
 
 .nosotros{
-    background-color:#1f2225 ;
+    background-color:#1a1d1f ;
     width: 100%;
     display: flex;
     flex-direction: column;
 
 }
 
-.bgimagen{
-    background-image: url(/assets/imagenes/banner.png);
-    background-repeat: no-repeat; ; 
-	background-attachment: scroll; 
-    background-size: 100%;
-    background-position: center;
-
-    
-}
 
 .nosotros .contenedor{
     width: 70%;
