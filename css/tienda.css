@@ -1,3 +1,8 @@
+body{
+    background:#16181a;
+    color: white;
+    font-family: 'Roboto', sans-serif;;
+}
 .principal{
     background-color: #1a1d1f;
 }
@@ -7,18 +12,84 @@
     color: white;
     font-family: 'Bokor', cursive;
     font-size: 50px;
-    margin-top: 30px;
-    margin-bottom: 20px;
     }
 
-    .carousel-item h1{
-        text-decoration: none;
-        color: white;
-        font-family: 'Bokor', cursive;
+.titulo2{
+    color: white;
+    font-family: 'Bokor', cursive;
+    font-size: 20px;
+    flex-direction: row;
+}
+
+.titulo2 p{
+    text-decoration: underline;
+}
+
+.titulo2 p:hover{
+    opacity: .6;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.carousel-item h1{
+    text-decoration: none;
+    color: white;
+    font-family: 'Bokor', cursive;
+    }
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.item{
+    width: 20%;
+    padding-top: 20px;
+}
+
+.item:hover{
+    background-color: #16181a;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.5s;
+}
+
+.estrellas{
+    margin-bottom: 10px;
+    display: flex;
+    margin-top: 0px;
+
+}
+
+.estrella{
+    width: 20px;
+    color: #dc3545;
+}
+
+.estrellass{
+    width: 18px;
+    color: #dc3545;
+}
+
+
+
+.imagenitem img{
+    width: 200px;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1199px){
+    .item{
+        width: 40%;
     }
     
-    
-
+}
     
 @media (max-width: 767px) { 
     .bgimagen .d-flex{
@@ -30,4 +101,17 @@
     .carousel-item{
         height: 100%;
     }
+    .item{
+        width: 45%;
+    }
+    .titulo2{
+        flex-direction: column ;
+    }
+    .titulocateg{
+        text-align: center;
+    }
+    .categ{
+        justify-content: center;
+    }
+   
 }
