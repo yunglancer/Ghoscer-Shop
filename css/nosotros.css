@@ -79,6 +79,10 @@ text-decoration: none;
         height: 2vh;
     }
 
+    .nosotros .contenedor{
+        width: 80%;
+    }
+
     .textosn{
         width: 80%;
         flex-direction: column;
