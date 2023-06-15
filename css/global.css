@@ -34,6 +34,12 @@ header{
   background: #16181a;
 }
 
+header button{
+    display: none;
+}
+
+
+
 @font-face {
   font-family: 'Heartless';
   src: url('/assets/Heartless.ttf');
@@ -193,6 +199,8 @@ body {
   }
   .bd-mode-toggle {
     z-index: 1500;
+
+
   }
 
   @media (min-width: 768px) and (max-width: 1199px) { 
@@ -210,6 +218,32 @@ body {
   }
   
   @media (max-width: 767px){
+
+    header button{
+      display: block;
+      border: 1px solid white !important;
+      margin: auto;
+      border-top-left-radius: 4px !important;
+      border-bottom-left-radius: 4px !important;
+      border-top-right-radius: 4px !important;
+      border-bottom-right-radius: 4px !important;
+    }
+
+    header button span{
+      margin: auto;
+    }
+
+    header button svg{
+      color: white;
+    }
+
+   
+
+  header .nav-item a{
+    font-size: 20px;
+  }  
+
+
     .bgimagen{
       padding-top: 0 !important;
     }
@@ -225,6 +259,8 @@ body {
     .bgimagen .d-flex a{
       margin-bottom: 2vh !important;
     }
+
+
   }
   
 
