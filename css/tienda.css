@@ -5,6 +5,7 @@ body{
 }
 .principal{
     background-color: #1a1d1f;
+    display: flex;
 }
 
 .titulo1{
@@ -29,6 +30,10 @@ body{
     opacity: .6;
     transition: 0.5s;
     cursor: pointer;
+}
+
+#bProductos{
+    opacity: 0.5;
 }
 
 .carousel-item h1{
@@ -81,8 +86,17 @@ body{
     width: 200px;
 }
 
+.ofertas{
+    text-decoration: none;
+    color: white;
+    font-family: 'Bokor', cursive;
+    font-size: 45px;
 
+}
 
+#contOfertas{
+    display: none;
+}
 
 @media (min-width: 768px) and (max-width: 1199px){
     .item{

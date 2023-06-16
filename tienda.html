@@ -124,16 +124,16 @@
 
           <h1 class="text-center titulo1 mb-3">Tienda</h1>
           <div class="d-flex titulo2 justify-content-center w-75 m-auto titulocateg">
-              <p class="mx-3">Todos los productos</p>
+              <p id="bProductos" class="mx-3">Todos los productos</p>
               <div class="d-flex flex-row categ">
-                <p class="mx-3">T-Shirts</p>
-                <p class="mx-3">Hoodies</p>
-                <p class="mx-3">Ofertas</p>
+                <p id="bShirt"  class="mx-3">T-Shirts</p>
+                <p id="bHoodies" class="mx-3">Hoodies</p>
+                <p id="bOfertas" class="mx-3">Ofertas</p>
               </div>
              
           </div>
       
-            <div class="principal d-flex w-100 py-2 container justify-content-center">
+            <div id="contShirt1" class="principal w-100 py-2 container justify-content-center">
               <!--articulos 1-->
         
                 <div class="item d-flex flex-column m-2">
@@ -258,7 +258,7 @@
               
             </div>
          
-            <div class="principal d-flex w-100 py-2 container justify-content-center">
+            <div id="contShirt2" class="principal w-100 py-2 container justify-content-center">
               <!--articulos 2-->
         
               <div class="item d-flex flex-column m-2">
@@ -382,7 +382,7 @@
               </div>
             </div>
                <!--articulos 3-->
-            <div class="principal d-flex w-100 py-2 container justify-content-center">
+            <div id="contHoodie1"  class="principal w-100 py-2 container justify-content-center">
               <div class="item d-flex flex-column m-2">
                 <a href="#" class="d-flex flex-column text-decoration-none">
                   <div class="imagenitem d-flex m-3">
@@ -501,7 +501,7 @@
               </div>
             </div>
             <!--articulos 4-->
-            <div class="principal d-flex w-100 py-2 container justify-content-center">
+            <div id="contHoodie2" class="principal w-100 py-2 container justify-content-center">
               <div class="item d-flex flex-column m-2">
                 <a href="#" class="d-flex flex-column text-decoration-none">
                   <div class="imagenitem d-flex m-3">
@@ -618,6 +618,9 @@
                   </div>
                </a>
               </div>
+            </div>
+            <div id="contOfertas" class="w-100 py-2 container justify-content-center">
+              <h2 class="ofertas my-5">No hay ofertas disponibles</h2>
             </div>
       </div>
       
@@ -684,6 +687,7 @@
         </footer>
       </div>
       <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/tienda.js"></script>
 </body>
 </body>
 </html>
