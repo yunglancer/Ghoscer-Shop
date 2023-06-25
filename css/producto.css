@@ -1,0 +1,86 @@
+section{
+    background-color: #1a1d1f ;
+}
+
+#form1{
+    width: 15%;
+}
+
+h1, .container h2{
+    font-family: 'Bokor', cursive;
+}
+
+select{
+    width: 50% !important;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.item{
+    width: 20%;
+    padding-top: 20px;
+}
+
+.item{
+    width: 20%;
+    padding-top: 20px;
+}
+
+.item:hover{
+    background-color: #16181a;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.5s;
+}
+
+.estrellas{
+    margin-bottom: 10px;
+    display: flex;
+    margin-top: 0px;
+
+}
+
+.estrella{
+    width: 20px;
+    color: #dc3545;
+}
+
+.estrellass{
+    width: 18px;
+    color: #dc3545;
+}
+
+
+
+.imagenitem img{
+    width: 200px;
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1199px){
+    select{
+        width: 100% !important;
+    }
+    .item{
+        width: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    select{
+        width: 100% !important;
+    }
+    .item{
+        width: 45%;
+    }
+}
