@@ -32,6 +32,7 @@
     hr{
         color: white;
     }
+
     h1, h2, h3, h4{
         font-family: 'Bokor', cursive;
         color: white;
@@ -85,6 +86,10 @@
     .svgg:hover{
         opacity: .6;
         transition: 0.5s;
+    }
+
+    .textoredes{
+        font-weight: 400;
     }
     
     
