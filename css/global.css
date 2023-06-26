@@ -38,6 +38,9 @@ header button{
     display: none;
 }
 
+nav{
+  justify-content: space-between;
+}
 
 
 @font-face {
@@ -266,8 +269,21 @@ body {
       margin-bottom: 1rem;
       margin-top: 1rem;
     }
+    
 
   }
   
+
+  @media (max-width: 376px){
+    header .nav-link{
+      margin-left: 0.5rem !important;
+      margin-right: 0.5rem !important;
+    }
+    
+    nav{
+      justify-content: center ;
+    }
+    
+  }
 
   
