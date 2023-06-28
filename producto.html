@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/producto.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="assets/imagenes/IMG-20220327-WA0036-removebg-preview.png" type="image/x-icon">
     <title>T-Shirt Basic| Ghoscer</title>
 </head>
@@ -68,7 +69,7 @@
       <section class="py-5">
         <div class="container px-4 px-lg-5 my-5">
             <div class="row gx-4 gx-lg-5 align-items-center">
-                <div class="col-md-6 justify-content-center d-flex"><img class="card-img-top mb-5 mb-md-0 w-75"  src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img5.webp" alt="..." /></div>
+                <div class="col-md-6 justify-content-center d-flex"><img data-aos="zoom-in" data-aos-duration="1500" class="card-img-top mb-5 mb-md-0 w-75"  src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img5.webp" alt="..." /></div>
                 <div class="col-md-6">
                     <div class="small mb-1">T-Shirts</div>
                     <h1 class="display-5 fw-bolder">T-Shirt Basic</h1>
@@ -111,7 +112,7 @@
           <hr class="my-5">
           <h2 class="text-center mt-5">Productos relacionados</h2>
         </div>
-        <div id="contHoodie1"  class="principal w-100 py-2 container justify-content-center">
+        <div data-aos="fade-up" data-aos-duration="2000" id="contHoodie1"  class="principal w-100 py-2 container justify-content-center">
           <div class="item d-flex flex-column m-2">
             <a href="producto2.html" class="d-flex flex-column text-decoration-none">
               <div class="imagenitem d-flex m-3">
@@ -239,8 +240,8 @@
       <div class="container foooter pt-2">
 
         <div class="container p-1 pb-0 d-flex flex-row justify-content-around mb-4 redes">
-          <h4 class="textoredes">Siguenos en nuestras redes sociales</h4>
-          <section class=" d-flex justify-content-center">
+          <h4  data-aos="fade-right" data-aos-duration="2000" class="textoredes">Siguenos en nuestras redes sociales</h4>
+          <section data-aos="fade-left" data-aos-duration="2000" class=" d-flex justify-content-center">
             <a class="btn btn-dark btn-floating m-1" href="#!" role="button"
               ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
@@ -339,6 +340,10 @@
       </div>
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/tienda.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </body>
 </html>

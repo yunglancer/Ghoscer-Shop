@@ -3,6 +3,10 @@
     src: url('/assets/Heartless.ttf');
 }
 
+.bgimagen a{
+   font-family: 'Bokor', cursive;;
+}
+
 .carousel-item h1{
     text-decoration: none;
     color: white;
