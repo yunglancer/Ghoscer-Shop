@@ -6,6 +6,12 @@ body{
     color: white;
     font-family: 'Roboto', sans-serif;;
 }
+
+div{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 body a{
     color: white;
 }
